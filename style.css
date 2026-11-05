@@ -86,13 +86,13 @@ a{
 
   .grid-gallery img {
   width: 100%;
-  aspect-ratio: 1;       /* Force square */
-  object-fit: cover;     /* Crop to fit */
+  aspect-ratio: auto;       
+  object-fit: cover;     
   }
 
   .label{
     position:relative;
-    top:50%;
+    top:70%;
     padding: 5px 15px;
   }
 
@@ -105,7 +105,6 @@ a{
 
     .page-container img {
   width: 100%;
-  aspect-ratio: 1;       /* Force square */
   object-fit: cover;     /* Crop to fit */
   place-items: center;
   }
